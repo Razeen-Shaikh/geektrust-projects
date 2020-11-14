@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #2e2e26;
+  color: #f3f3f3;
+}
+
+#root {
+  background-color: #2e2e26;
+  color: #f3f3f3;
+  font-family: 'Red Rose', cursive;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  margin: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Planets {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+.Vehicles {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.Vehicle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin: 0 20px 20px;
+}
+.Vehicle > p {
+  font-size: 10px;
+}
+.VehicleImg {
+  height: 20vmin;
+  margin: 10px;
+}
+.Planet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin: 0 20px 20px;
+}
+.Planet > p {
+  font-size: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
