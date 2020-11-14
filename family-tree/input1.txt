@@ -1,0 +1,6 @@
+ADD_CHILD Satya Ketu Male
+GET_RELATIONSHIP Kriya Paternal-Uncle
+GET_RELATIONSHIP Vich Siblings
+GET_RELATIONSHIP Vyas Maternal-Uncle
+GET_RELATIONSHIP Kriya Paternal-Aunt
+GET_RELATIONSHIP Vyas Maternal-Aunt
